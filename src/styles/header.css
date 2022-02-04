@@ -1,0 +1,15 @@
+.header {
+  padding: 1rem 5rem;
+  width: 100%;
+  background-color: rgb(75, 75, 170);
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.header button {
+  padding: 5px 10px;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 5px;
+}

@@ -1,0 +1,73 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+
+section header {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+form .form-submit {
+  background-color: rgb(26, 110, 216);
+  color: aliceblue;
+  padding: 5px 10px;
+  width: 25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button {
+  padding: 5px 10px;
+}
+
+form .disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  pointer-events: none;
+}
+
+form p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.selected-gifs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.selected-gifs {
+  position: relative;
+}
+
+.selected-gifs img {
+  width: 50px;
+  height: 50px;
+}
+
+.cancel-gif-select {
+  background-color: aliceblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+}

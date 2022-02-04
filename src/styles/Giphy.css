@@ -1,0 +1,33 @@
+.create-post {
+  width: 325px;
+}
+
+.create-post input {
+  width: 300px;
+  height: 2rem;
+}
+
+.gifs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  overflow: auto;
+  height: 300px;
+  width: 100%;
+}
+
+.gifs img {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header h3 {
+  margin: 0 10px;
+}
