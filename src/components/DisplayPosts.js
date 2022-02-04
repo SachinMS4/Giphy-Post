@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
 import { ItemsContext } from "../store/context";
 import "../styles/displayPost.css";
+import { IoPersonOutline } from "react-icons/io5";
 import keygenerator from "keygenerator";
-
-import { BsPerson } from "react-icons/bs";
 
 function DisplayPosts() {
   const items = useContext(ItemsContext)[0];
@@ -15,7 +14,7 @@ function DisplayPosts() {
           {/* Display user avatar and user posted Text */}
           <div className="post-content">
             <div className="avatar">
-              <BsPerson fontSize="2.5rem" />
+              <IoPersonOutline fontSize="2.5rem" />
               <h5>UserName</h5>
             </div>
             <p>{item.text}</p>
