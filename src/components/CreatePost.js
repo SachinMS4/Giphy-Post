@@ -32,8 +32,8 @@ function CreatePost({ setCreatePost }) {
     e.preventDefault();
     setCreatePost("New Post");
     setItems([
-      ...items,
       { text: text, gif_url: gifSelect, id: keygenerator.number() },
+      ...items,
     ]);
   }
 
